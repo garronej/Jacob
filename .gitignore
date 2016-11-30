@@ -15,3 +15,4 @@ examples/Expression/expast.js
 examples/Expression/expeval.js
 examples/Expression/expint.js
 examples/basiclexer.js
+examples/workingExample/generated/*
