@@ -1,6 +1,6 @@
-//to build: node ./../node_modules/jacob/cmd/cmd.js -t lexer.jacoblex -l lexer.js -g parser.jacobgram -p parser.js
-var Lexer = require("./lexer");
-var Parser = require('./parser');
+//to build: node ../../cmd/cmd.js -t lexer.jacoblex -l ./generated/lexer.js -g parser.jacobgram -p ./generated/parser.js
+var Lexer = require("./generated/lexer");
+var Parser = require("./generated/parser");
 
 
 var lexer = new Lexer();
