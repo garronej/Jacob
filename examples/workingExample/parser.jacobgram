@@ -11,9 +11,12 @@ Statement = 'id' '=' Expression function(id,_, exp){this[id] = exp;}
 
 Expression = Expression 'PLUS' Expression  function (e1, _, e2) {
 
-        this.stack.forEach(function(val){
-                        console.log(val.i);
-        });
+
+        for(let i= 1;i<=this.__stack__.length; i++){
+
+            console.log("index: ", -i, "stack item: ",this.__stack__.getItem(-i));
+
+        }
 
 
         return e1 + e2;
