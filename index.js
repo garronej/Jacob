@@ -8,7 +8,7 @@ var parser = require('./lib/parser');
 exports.lexer = lexer;
 exports.parser = parser;
 exports.StringReader =  require('./lib/stringreader');
-console.log('JACOB 1.0.0');
+console.log('JACOB 1.1.0 fork with stack access');
 
 function generateLexerSource(jacoblex){
 
